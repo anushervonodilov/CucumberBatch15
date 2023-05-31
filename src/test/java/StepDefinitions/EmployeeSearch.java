@@ -30,8 +30,12 @@ public class EmployeeSearch extends CommonMethods {
 
         WebElement jobTitleDdl = driver.findElement(By.id("empsearch_job_title"));
         selectByOptions(jobTitleDdl, "Singer");
-        WebElement empStatusDdl = driver.findElement(By.id("empsearch_employee_status"));
-        selectByOptions(empStatusDdl, "Active");
+
+//        WebElement empStatusDdl = driver.findElement(By.id("empsearch_employee_status"));
+//        selectByOptions(empStatusDdl, "Active");
+//
+//        WebElement includeDdl = driver.findElement(By.id("empsearch_termination"));
+//        selectByOptions(includeDdl, "Current and Past Employees");
     }
 
 }
